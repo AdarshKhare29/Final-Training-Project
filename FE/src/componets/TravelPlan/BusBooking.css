@@ -1,0 +1,121 @@
+.mainCover{
+    position: relative;
+    background-color:rgb(224, 223, 223);
+    width:100%;
+   top:50px;
+    height:800px;
+
+}
+.userWelcome{
+    margin-top:10px;
+    margin-left: 50px;
+    height:40px;
+    
+}
+
+.tab-list-item {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 0.5rem 0.75rem;
+  border-radius: 7px;
+  margin-right:10px;
+  color:white;
+  cursor: pointer;
+  background-color:rgb(109, 101, 101);
+}
+
+.tab-list-active {
+  background-color: green;
+  border: solid 1px black;
+  
+}
+.fromCity{
+    width: 50%;
+    position: absolute;
+    float: right;
+}
+.toCity{
+    width:50%;
+    position: relative;
+    float: right;
+    right: 400px;
+}
+.travelDate{
+    width:50%;
+    position: relative;
+    float: right;
+    left: 500px;
+}
+label{
+    margin-left:25px;
+}
+input{
+    margin-left: 35px;
+    border:solid 1px blue;
+    border-radius: 5px;
+    height:30px;
+}
+.tripBtn{
+    margin-left: 10px;
+    background-color:green;
+    color:white;
+    border: solid 1px black;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.payment{
+    width:80%;
+    height:300px;
+    box-shadow: 15px 15px 15px 15px #292929;
+}
+
+#visa{
+    margin-left:78px;
+}
+.cardNumber input{
+    width: 20%;
+    margin-left:60px;
+    border-radius: 0%;
+}
+.cardName input{
+    width:40%;
+    margin-left: 50px;
+    border-radius: 0%;
+}
+.cvv input{
+    width:8%;
+    margin-left: 120px;
+    border-radius: 0%;
+}
+#monthEx{
+    width:8%;
+    margin-left: 68px;
+    border-radius: 0%;
+}
+#yearEx{
+    width:8%;
+    margin-left: 8px;
+    border-radius: 0%;
+}
+.paymentBtn{
+    margin-left: 250px;
+}
+
+
+.submitBtn{
+    background-color:green;
+    color:white;
+    border: solid 1px black;
+    height: 30px;
+    border-radius: 5px;
+}
+.cancelBtn{
+    background-color:rgb(241, 41, 41);
+    color:white;
+    margin-left: 10px;
+    border: solid 1px black;
+    height: 30px;
+    border-radius: 5px;
+}

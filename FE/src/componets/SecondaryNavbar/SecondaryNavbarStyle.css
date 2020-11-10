@@ -1,0 +1,41 @@
+.content{
+    top: 0;
+    height: 60px;
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    background: #95a5a6;
+    box-shadow: 15px 15px 8px #292929;
+    position: absolute;;
+}
+
+.login-btn{
+    background-color: white;
+    border: none;
+    color: black;
+    float: right;
+}
+.signUpbtn {
+    background-color: rgb(102, 68, 182);
+    border: none;
+    color: white;
+    float: right;
+}
+.login-btn, .signUpbtn{
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.signUpbtn:hover, .login-btn:hover, .homeBtn:hover{
+    box-shadow: 8px 15px 15px black;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+.userWelcome{
+    top:150px;
+}

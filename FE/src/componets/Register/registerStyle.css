@@ -1,0 +1,85 @@
+.registerForm{
+    width:30%;
+    height:500px;
+    margin: 30px;
+    margin-left: 900px;
+    border: 1px solid black;
+    opacity: 0.8;
+    background-color: black;
+    box-shadow: 15px 15px 45px 8px white ;
+    border-radius:5px;
+    position: relative;
+}
+.genderField input[type="radio"]{
+    color: white;
+}
+.form-group input{
+    margin-top:5px;
+    width: 50%;
+    height: 30px;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: none;
+    color:black;
+    background: #f1f1f1;
+    border:solid 1px rgb(17, 16, 16);
+}
+.form-group input:focus{
+    background-color:black;
+    border-color: white;
+    box-shadow: 15px 15px 15px #888888;
+    border-radius: 5px;
+    outline: none;
+    color: pink;
+}
+.form-groupG input{
+    width: 15%;
+    margin-top: 5px;
+    border: none;
+    color:black;
+    background: #f1f1f1;
+} 
+.form-groupG label {
+    color:white;
+}
+.emailField{
+    margin-left: 50px;
+  
+}
+.passwordField{
+    margin-left: 20px;
+}
+.nameField{
+    margin-left: 45px;
+}
+.mobileField{
+    margin-left: 40px;
+}
+.dobField{
+    margin-left: 50px;
+}
+.genderField{
+    margin-left:120px;
+}
+#mf{
+    margin-left:200px;
+}
+#registerH{
+    margin-top:30px;
+    margin-left: 30px;
+    color:white;
+}
+.form-group label{
+    color: white;
+}
+
+.registerBtn{
+background-color: rgb(14, 48, 15);
+color: white;
+padding: 16px 20px;
+border: none;
+cursor: pointer;
+margin-left: 300px;
+opacity: 1;
+text-decoration: none;
+}

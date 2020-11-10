@@ -1,0 +1,45 @@
+.BusDetails{
+    float: left;
+    margin-top: 70px;
+    width: 100%;
+}
+.busInfo{
+    width:80%;
+    height: 50px;
+    box-shadow: 4px 5px 4px 4px #292929;   
+    background-color:white;
+}
+#busSelect{
+    color:black;
+}
+.busInfo{
+    margin-left:40px;
+}
+.busInfo li{
+    float: left;
+    font-weight: 900;
+    width:150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex: 0 25%;
+}
+.busResult ul{
+    height: 50px;
+    width: 160%;
+}
+.busResult ul li{
+    float: left;
+    text-decoration: none;
+   list-style-type: none;
+    margin-top: 10px;
+    padding: 5px;
+    margin-left: 10px;
+    
+    box-shadow: 4px 5px 4px 4px #292929;   
+    background-color:white;
+    /* height: 50px; */
+    /* box-shadow: 4px 5px 4px 4px #292929;    */
+   
+}

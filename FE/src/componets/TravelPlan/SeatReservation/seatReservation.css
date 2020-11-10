@@ -1,0 +1,35 @@
+.bookingDetails{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 90px;
+    width: 300px;
+    margin-top: 5px;
+    box-shadow: 7px 7px 15px black;
+    background-color:gray;
+}
+.SeatNo{
+    font-weight: 900;
+}
+.passDetails{
+    margin-top:3px;
+    width: 80%;
+    height: 30px;
+    color:black;
+    background: #f1f1f1;
+    border:solid 1px rgb(17, 16, 16);
+}
+.passDetails:focus{
+    background-color:black;
+    border-color: white;
+    box-shadow: 15px 15px 15px #888888;
+    outline: none;
+    color: pink;
+}
+.submitBtn{
+    background-color: rgb(35, 128, 38);
+    color: white;
+    border: none;
+    cursor: pointer;
+    opacity: 1;
+    text-decoration: none;
+}
